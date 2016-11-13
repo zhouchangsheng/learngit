@@ -22,13 +22,13 @@
 		]
 	}
 - S端：
-  -- S1成功：
+  - S1成功：
 	  {
 		data:[],
 		errcode:"0",
 		errmsg:"ok"
 	  }
-  -- S2失败：
+  - S2失败：
 	 {
 		data:[],
 		errocde:"...",
