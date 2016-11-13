@@ -12,7 +12,12 @@
 	
 ###1.用户验证
 
-	- B端：
+- Dashes work just as well
+- And if you have sub points, put two spaces before the dash or star:
+  - Like this
+  - And this
+  
+	-B端：
 	{
 		method:"userVerify",
 		data:[
@@ -22,7 +27,7 @@
 			}
 		]
 	}
-	- S端：
+	-S端：
 	  --S1成功：
 	  {
 		data:[],
