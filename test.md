@@ -11,13 +11,7 @@
 	浏览器通过post方式提交（json格式（method字段关键））
 	
 ###1.用户验证
-
-- Dashes work just as well
-- And if you have sub points, put two spaces before the dash or star:
-  - Like this
-  - And this
-  
-	-B端：
+- B端：
 	{
 		method:"userVerify",
 		data:[
@@ -27,15 +21,14 @@
 			}
 		]
 	}
-	-S端：
-	  --S1成功：
+- S端：
+  --S1成功：
 	  {
 		data:[],
 		errcode:"0",
 		errmsg:"ok"
 	  }
-	
-	  --S2失败：
+  --S2失败：
 	 {
 		data:[],
 		errocde:"...",
