@@ -35,3 +35,8 @@
 		errocde:"...",
 		errmsg:"..."
 	 }
+
+
+errcode | errmsg(en) | errmsg(中文)
+------- | ---------- | -----------
+0|ok|请求成功
