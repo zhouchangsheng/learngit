@@ -12,7 +12,6 @@
 	
 ###1.用户验证
 	B端：
-	`````
 	{
 		method:"userVerify",
 		data:[
@@ -22,23 +21,18 @@
 			}
 		]
 	}
-	`````
-	
+
 	S端：
 	S1成功：
-	`````
 	{
 		data:[],
 		errcode:"0",
 		errmsg:"ok"
 	}
-	`````
 	
 	S2失败：
-	`````
 	{
 		data:[],
 		errocde:"...",
 		errmsg:"..."
 	}
-	`````
