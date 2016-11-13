@@ -40,3 +40,5 @@
 errcode | errmsg(en) | errmsg(中文)
 ------- | ---------- | -----------
 0|ok|请求成功
+
+1|resoure was not found|资源不存在
